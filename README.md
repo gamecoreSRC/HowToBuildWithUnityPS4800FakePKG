@@ -47,33 +47,33 @@ Building
 
 8.- Copy these two files from sce_sys folder.
 
-![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_014511621.png "Build Folder")
+![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_014511621.png "Build Folder")
 
 9.- Paste the files into the root project folder
 
-![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_014645480.png "Build Folder")
+![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_014645480.png "Build Folder")
 
 But we still need the shareparam.json file - in later S*D*K versions, it isn't automatically generated, so you willneed to create it manually.
 
 10.- Navigate to where your S*D*K is installed, and go to "ORBIS > Tools > Publishing Tools > bin". You should see something similar to this image.
 
-![Publishing Tools](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_015015867.png "Publishing Tools")
+![Publishing Tools](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_015015867.png "Publishing Tools")
 
 11.- Open "Share_File_Editor.exe" you should see this window open up. You don't need to change any of the settings here (at least, not to my knowledge).
 
-![Publishing Settings](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_015148470.png "Publishing Tools")
+![Publishing Settings](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_015148470.png "Publishing Tools")
 
 12.- Click "File(F)" and then click "Save As".
 
-![Publishing Settings](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_015527733.png "Publishing Tools")
+![Publishing Settings](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_015527733.png "Publishing Tools")
 
 13.- In the new window it opened, save it to your project folder.
 
-![Publishing Settings](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_015614164.png "Publishing Tools")
+![Publishing Settings](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_015614164.png "Publishing Tools")
 
 14.- There should now be a "shareparam.json" where you saved it.
 
-![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4F800akePKG/blob/master/image_2025-08-09_015711184.png "Build Folder")
+![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_015711184.png "Build Folder")
 
 15.- Back in Unity, go back again to the Build Settings window. Press Player Settings button, and in the Inspector select the Publishing Settings. Now you have to use those 3 files in the options: Share parameter file to set shareparam.json, pronunciation.xml set to pronunciation.xml, and pronunciation.sig to pronunciation.sig. We have to do this because we're going to build a non development package, and to use that we have to set those 3 files.
 
