@@ -53,7 +53,7 @@ Building
 
 ![Build Folder](https://github.com/gamecoreSRC/HowToBuildWithUnityPS4800FakePKG/blob/master/image_2025-08-09_014645480.png "Build Folder")
 
-But we still need the shareparam.json file - in later S*D*K versions, it isn't automatically generated, so you willneed to create it manually.
+But we still need the shareparam.json file - in later S*D*K versions (or at least for Unity's case from my experience), it isn't automatically generated, so you will need to create it manually.
 
 10.- Navigate to where your S*D*K is installed, and go to "ORBIS > Tools > Publishing Tools > bin". You should see something similar to this image.
 
