@@ -37,7 +37,7 @@ Building
 
 5.- Usually the environment variables of the S*D*K are set in the system, and Unity does not require you set the S*D*K path, but I prefer to set it.
 
-6.- Now press build Button. Take in mind, this build won't work. We do this build to retrieve 3 files we need for the final build. So in the File Dialog, create a new folder out of the project and set it a name. For example Build. And then select the folder and continue.
+6.- Now press build Button. Take in mind, this build won't work. We do this build to retrieve 2 files we need for the final build. So in the File Dialog, create a new folder out of the project and set it a name. For example Build. And then select the folder and continue.
 
 ![Open Dialog](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura5.PNG "Open Dialog")
 
