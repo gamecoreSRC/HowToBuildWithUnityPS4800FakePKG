@@ -1,5 +1,5 @@
-# How To Build With Unity PS4 FakePKG
-In order to build with success using Unity PS4 you need to be sure your setup is complete.
+# How To Build With Unity PS4 8.00
+A slightly modified version of the original guide. For the most part, follow along with this guide if you have version 8.00 rather than 4.50 of the S*D*K.
 
 Setup
 =====
@@ -24,9 +24,9 @@ Building
 
 1.- Create a new project, or open an existing one, or just import one of the packages as samples you can also find out there.
 
-2.- When you ready to build the project select File -> Build Settings.
+2.- When you're ready to build the project select File -> Build Settings.
 
-3.- Set the window as show in next image.
+3.- Set the settings in the window as show in this image.
 
 
 ![PC Hosted](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura1.PNG "Set PC Hosted")
@@ -45,25 +45,37 @@ Building
 
 ![Build Folder](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura6.PNG "Build Folder")
 
-8.- Copy next 3 files from sce_sys folder.
+8.- Copy these two files from sce_sys folder.
 
 ![Build Folder](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura7.PNG "Build Folder")
 
-9.- Paste the 3 files copied into the upper project folder
+9.- Paste the files into the root project folder
 
 ![Build Folder](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura8.PNG "Build Folder")
 
-10.- We'll use those 3 files in the Publishing Settings of the Player Settings. So go back again to the Build Settings window. Press Player Settings button, and in the Inspector select the Publishing Settings. Now you have to use those 3 files in the options: Share parameter file to set shareparam.json, pronunciation.xml set to pronunciation.xml, and pronunciation.sig to pronunciation.sig. We have to do this because we're going to build a non development package, and to use that we have to set those 3 files.
+But we still need the shareparam.json file - in later S*D*K versions, it isn't automatically generated, so you willneed to create it manually.
+
+10.- Navigate to where your S*D*K is installed, and go to "ORBIS > Tools > Publishing Tools > bin". You should see something similar to this image.
+
+11.- Open "Share_File_Editor.exe" you should see this window open up. You don't need to change any of the settings here (at least, not to my knowledge).
+
+12.- Click "File(F)" and then click "Save As".
+
+13.- In the new window it opened, save it to your project folder.
+
+14.- There should now be a "shareparam.json" where you saved it.
+
+15.- Back in Unity, go back again to the Build Settings window. Press Player Settings button, and in the Inspector select the Publishing Settings. Now you have to use those 3 files in the options: Share parameter file to set shareparam.json, pronunciation.xml set to pronunciation.xml, and pronunciation.sig to pronunciation.sig. We have to do this because we're going to build a non development package, and to use that we have to set those 3 files.
 
 ![Publishing Settings](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura2.PNG "Publishing Settings")
 
-11.- Finally set Build Settings -> Build Type: PS4 Package and remove any check from the checkboxes.
+16.- Finally set Build Settings -> Build Type: PS4 Package and remove any check from the checkboxes.
 
 ![Build Settings](https://github.com/RetroGamer74/HowToBuildWithUnityPS4FakePKG/blob/master/Captura.PNG "Build Settings")
 
-12.- Set parental control to 1 in Publishing Settings. If you keep in value 11 which is default you will get an error about invalid parental control number.
+17.- Set parental control to 1 in Publishing Settings. If you keep in value 11 which is default you will get an error about invalid parental control number.
 
-13.- Now you can click Build, and you can do more builds without repeating all the steps shown here. You have to do this only once for the project. Remember you empty the folder Build before you try to compile again, because Unity requires build folder be empty if you are going to create a different Build Type, which is the case. We changed Build Type from PC Hosted to PS4 Package. After that you can build more times without clean folder while you create always PS4 Packages.
+18.- Now you can click Build, and you can do more builds without repeating all the steps shown here. You have to do this only once for the project. Remember you empty the folder Build before you try to compile again, because Unity requires build folder be empty if you are going to create a different Build Type, which is the case. We changed Build Type from PC Hosted to PS4 Package. After that you can build more times without clean folder while you create always PS4 Packages.
 
 
 ![License](https://img.shields.io/badge/License-GPLv2-blue.svg)
