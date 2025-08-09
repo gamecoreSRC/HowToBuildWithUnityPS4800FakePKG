@@ -12,12 +12,11 @@ Setup
 
 4.- You can also install Monodevelop from the preferences menu option within Unity Editor. You can, anyway, install Visual Studio as IDE.
 
-5.- Once PS4 S*D*K is installed you have to replace the Publishing Tools which are located in PATH_SDK/ORBIS/Tools/Publishing Tools/ with the FakePKG tools you can download from: https://mega.nz/#!aRgCzJDI!XyCqSXLAyO4wpsqkVb3Lhx8YxrZLGMPC9ARt8CxmEys
+5.- Create a Unity account if you still don't have one.
 
-6.- Create a Unity account if you still don't have one.
+6.- Set the license. You can do this in first Unity startup, or in the Help menu, by selecting Manage License. Then, select Activate License, and set yours.
 
-7.- Set the license. You can do this in first Unity startup, or in the Help menu, by selecting Manage License. Then, select Activate License, and set yours.
-
+Note: In the original guide, you'd have to replace the "Publishing Tools" in the S*D*K. However, I found by trying to do this, Unity would throw an error about having an incorrect version of the publishing tools. So, just... don't do this, k? Alright, moving on...
 
 Building
 ========
