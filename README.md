@@ -4,19 +4,19 @@ A slightly modified version of the original guide. For the most part, follow alo
 Setup
 =====
 
-1.- Install PS4 S*D*K. There is a release out there you have to look for. ( Krome Mods )
+1.- Install PS4 S*D*K. There is a release out there you have to look for.
 
-2.- Install Unity 2017.2.0p2. ( You have to look for the version capable to build for 4.55 PS4 release ).
+2.- Install Unity 2021.2.0b11. ( You have to look for the version capable to build for 8.00 PS4 release ).
 
-3.- Install Unity PS4 2017.2.0p2 for the same release than Unity 2017 release.
+3.- Install Unity PS4 2021.2.0b11 for the same release as Unity 2021 release.
 
 4.- You can also install Monodevelop from the preferences menu option within Unity Editor. You can, anyway, install Visual Studio as IDE.
 
-5.- Create a Unity account if you still don't have one.
+5.- Use "UniHacker" to patch the Unity Hub and Unity installation after installing or PS4 target won't appear in Build Settings.
 
-6.- Set the license. You can do this in first Unity startup, or in the Help menu, by selecting Manage License. Then, select Activate License, and set yours.
+Note: In the original guide, you'd have to replace the "Publishing Tools" in the S*D*K. However, I decided to change this a bit. After figuring out that trying to build it without this, it won't launch on my jailbroken PS4. So, instead, try these steps (don't install the PKG from the Releases, it won't work as it was uploaded before I could even test it):
 
-Note: In the original guide, you'd have to replace the "Publishing Tools" in the S*D*K. However, I found by trying to do this, Unity would throw an error about having an incorrect version of the publishing tools. So, just... don't do this, k? Alright, moving on...
+6.- Download the FPKG tools here: "https://github.com/CyB1K/PS4-Fake-PKG-Tools-3.87/releases" (7.0 at time of writing) and copy/replace it in "SCE_PATH/ORBIS/Tools/Publishing Tools/bin"
 
 Building
 ========
